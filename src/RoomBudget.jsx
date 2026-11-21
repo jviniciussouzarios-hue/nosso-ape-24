@@ -1,4 +1,5 @@
 import React,{useState} from 'react';
+import './room-budget.css';
 import{Plus,Trash2,ExternalLink,ChevronDown,ChevronUp,Calculator}from'lucide-react';
 import{rooms,uid,money}from './data';
 export const PRIORITIES=['Essencial','Importante','Pode esperar'];
